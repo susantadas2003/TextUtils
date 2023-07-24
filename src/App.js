@@ -46,7 +46,7 @@ else{
    
   return (
     <>
-       <BrowserRouter>
+       <BrowserRouter basename='/TextUtils'>
   <Navbar title="Textutils" aboutTitle="About" mode={mode} togglemode={togglemode}/>
 <Alerts alert={alert}/>
 
